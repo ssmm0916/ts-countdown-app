@@ -1,0 +1,43 @@
+body {
+    font-family: Futura,Josefin Sans,sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.container {
+    background-image: url(https://picsum.photos/1920/1080);
+    background-size: cover;
+    background-position: center center;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-contents {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.countdown-elements {
+    text-align: center;
+}
+
+.countdown-elements p {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem 0.5rem;
+}
+
+.countdown-elements span {
+    font-size: 1.5rem;
+}
+
+.countdown-elements + .countdown-elements {
+    margin-left: 2rem;
+}
